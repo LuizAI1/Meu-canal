@@ -8,10 +8,12 @@
   <h1>Luiz do celeron</h1>
     <img src="canal.jpg">
 <h2 id="bemvindo">Bem vindos à pagina do meu canal!</h2>
+  <div id="sobre">
   <h2>Sobre</h2>
   <p>Sou programador tenho 15 anos e gosto de ajudar pessoas que precisam de ajuda para programar no roblox.</p>
   <p>Vocês podem deixar nos comentarios dos meus vídeos o que posso trazer no meu canal ensinando vocês.</p>
   <p id="obrigado">Obrigado pelos 20 inscritos!</p>
+  </div>
   <div id="videosmaisassistidos">
   <h2>Meus videos mais assistidos:</h2>
     <a href="https://youtu.be/Erw9nkLrpwY?si=BNv9yFeVw8PwBvML">Como fazer um botão de correr no studio lite</a>
@@ -53,8 +55,13 @@
       height: auto;
     }
   }
+  #sobre {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
   #conteudo {
-    margin-top: 300px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
